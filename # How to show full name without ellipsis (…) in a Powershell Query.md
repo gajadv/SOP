@@ -10,10 +10,13 @@ get-service | where {$_.name -match "win"}  | sort-object Status -desc
 Powershell_ouptut_normal_with_ellipses
 Red box is only added to bring your attention to the …
 Simply pipe the result to the “ft -auto” cmdlet.
+
 get-service | where {$_.name -match "win"}  | sort-object Status -desc | ft -auto
 
 Powershell_ouptut_ft_auto
+
 The full name is now displayed
+
 ft is just the abbreviation for format-table, so you could have typed:
 
 get-service | where {$_.name -match "win"}  | sort-object Status -desc | format-table -auto
