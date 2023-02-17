@@ -1,3 +1,5 @@
+# How to show full name without ellipsis (…) in a Powershell Query
+
 Sometimes, when property names contain very long values, the default displays cuts part of the name, as shown with this command and its output.
 
 [“ellipsis” is the term for the … when a name is truncated] as shown in the example below:
